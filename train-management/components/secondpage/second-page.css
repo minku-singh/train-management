@@ -1,0 +1,142 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+html
+{
+    background-color: aliceblue;
+}
+
+
+body
+{
+    font-family: 'Poppins', sans-serif;
+}
+
+#superman
+{
+    margin-bottom: -80vh;
+}
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.from-to
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15vh;
+}
+
+.from
+{
+    margin-right: 10vw;
+}
+
+.f-t
+{
+    font-weight: bolder;
+    background: none;
+    border: 2px solid rgb(1, 1, 85);
+}
+
+#search-button
+{
+    width: 200px;
+    height: 40px;
+    padding: 5px;
+    font-weight: bolder;
+    background: none;
+    border: 2px solid rgb(1, 1, 85);
+    box-shadow: 0 0 9px rgb(96, 146, 240);
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+/*JS manipulated*/
+#train2
+{
+    display: none;
+}
+
+#train1
+{
+    display: none;
+}
+
+.train
+{
+    background-color: rgb(1, 1, 85);
+    padding: 20px;
+    margin-bottom: 4vh;
+    margin-top: 2vh;
+
+    color: white;
+}
+
+.time-location
+{
+    font-size: 12px;
+    margin-top: 2vh;
+}
+
+.time
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.location
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#bookbutton1
+{
+    width: 100px;
+    height: 40px;
+    padding: 5px;
+    font-weight: bolder;
+    background: none;
+    border: 2px solid rgb(1, 1, 85);
+    box-shadow: 0 0 9px rgb(96, 146, 240);
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+    margin-left: 45px;
+    color: black;
+    background-color: chartreuse;
+}
+
+#bookbutton2
+{
+    width: 100px;
+    height: 40px;
+    padding: 5px;
+    font-weight: bolder;
+    background: none;
+    border: 2px solid rgb(1, 1, 85);
+    box-shadow: 0 0 9px rgb(96, 146, 240);
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+    margin-left: 45px;
+    color: black;
+    background-color: chartreuse;
+}
+

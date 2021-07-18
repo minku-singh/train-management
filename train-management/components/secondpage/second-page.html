@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Trains</title>
+
+    <!--Font Awesome link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--Google Fonts link : Poppins-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <!--CSS link-->
+    <link rel="stylesheet" href="second-page.css">
+
+    <!--Script link-->
+    <script src="second-page.js" defer></script>
+</head>
+<body>
+    
+    <div id="superman">
+        <img src="../../assets/superman.png" alt="superman">
+    </div>
+
+    <div class="container">
+        <!--From To-->
+        <div class="from-to">
+            <div class="from">
+                <p>From</p>
+                <select name="from" id="from" class="f-t">
+                    <option value="Patna">Patna</option>
+                    <option value="Pune">Pune</option>
+                </select>
+            </div>
+
+            <div class="to">
+                <p>To</p>
+                <select name="from" id="to" class="f-t">
+                    <option value="Patna">Patna</option>
+                    <option value="Pune">Pune</option>
+                </select>
+            </div>
+        </div>
+
+        <!--Search button-->
+        <button id="search-button">SEARCH TRAINS</button>
+
+        <!--Displayed due to JS, after clicking Search Train Button-->
+        <div class="display-train">
+            <!--Train 1-->
+            <div id="train1" class="train">
+                <h3>Vaishali Express</h3>
+                <hr>
+
+                <div class="time time-location">
+                    <p>18:00</p>
+                    <p>-18h:45m-</p>
+                    <p>12:45</p>
+                </div>
+
+                <div class="location time-location">
+                    <p>Patna</p>
+                    <p>M T W T F S S</p>
+                    <p>Pune</p>
+                </div>
+
+                <button id="bookbutton2">BOOK</button>
+            </div>
+
+            <!--Train 2-->
+            <div id="train2" class="train">
+                <h3>Gyan Ganga Express</h3>
+                <hr>
+
+                <div class="time time-location">
+                    <p>16:00</p>
+                    <p>-16h:40m-</p>
+                    <p>10:40</p>
+                </div>
+
+                <div class="location time-location">
+                    <p>Pune</p>
+                    <p>M T W T F S S</p>
+                    <p>Patna</p>
+                </div>
+
+                <button id="bookbutton1">BOOK</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
