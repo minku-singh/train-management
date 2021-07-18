@@ -1,5 +1,7 @@
 # train-management
 A train management website
 
-#Screenshots
+# Screenshots
 ![Home page](train-management/assets/homepage-screenshot.png)
+
+![Second Page](train-management/assets/secondpage-screenshot.png)
